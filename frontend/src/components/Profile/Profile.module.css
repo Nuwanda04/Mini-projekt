@@ -1,0 +1,129 @@
+.profile {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 700px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.header h2 {
+  margin: 0;
+  color: #333;
+  font-size: 28px;
+}
+
+.logoutBtn {
+  padding: 10px 24px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.logoutBtn:hover {
+  background: #c0392b;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid #f0f0f0;
+}
+
+.avatarFallback {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.details h3 {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 22px;
+}
+
+.email {
+  margin: 0 0 4px 0;
+  color: #555;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.userId {
+  margin: 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.jwtSection {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.jwtSection h4 {
+  margin: 0 0 12px 0;
+  color: #555;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.jwtSection pre {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin: 0;
+  color: #333;
+  font-size: 13px;
+  border: 1px solid #e0e0e0;
+  font-family: 'Courier New', monospace;
+}
+
+.loading {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}

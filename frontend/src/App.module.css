@@ -1,0 +1,7 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #87ceeb 0%, #e0f6ff 50%, #ffffff 100%);
+}
